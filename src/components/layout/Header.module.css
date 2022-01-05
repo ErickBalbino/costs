@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 740px;
+}
+
+.listItem {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 0px 10px;
+  transition: 0.2s ease-in-out color;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  color: #ffbb33;
+}

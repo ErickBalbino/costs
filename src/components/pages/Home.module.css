@@ -1,0 +1,32 @@
+.body {
+  widows: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.body h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  padding: 30px 0px 20px 0px;
+}
+
+.body h1 span {
+  color: #ffbb33;
+  background-color: #222;
+  padding: 2px 10px;
+}
+
+.body p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.05rem;
+  color: #3d3d3d;
+  padding-bottom: 30px;
+}
+
+.body img {
+  width: 400px;
+  padding-bottom: 50px;
+}

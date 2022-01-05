@@ -1,0 +1,15 @@
+.button {
+  margin-bottom: 50px;
+  background-color: #222;
+  color: #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  transition: 0.3s ease-in-out color;
+}
+
+.button:hover {
+  color: #c78d18;
+  cursor: pointer;
+}
