@@ -1,0 +1,13 @@
+select{
+    font-size: 1rem;
+    padding: 8px 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: transparent;
+    color: #444;
+    cursor: pointer;
+}
+
+select option{
+    font-size: 1rem;
+}

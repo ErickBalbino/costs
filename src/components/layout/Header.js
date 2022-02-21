@@ -15,22 +15,22 @@ export default function Header() {
         <ul className={styles.list}>
           <li>
             <Link className={styles.listItem} to="/">
-              HOME
+              Home
             </Link>
           </li>
           <li>
             <Link className={styles.listItem} to="/company">
-              SOBRE
+              Sobre
             </Link>
           </li>
           <li>
             <Link className={styles.listItem} to="/contact">
-              CONTATO
+              Contato
             </Link>
           </li>
           <li>
             <Link className={styles.listItem} to="/projects">
-              MEUS PROJETOS
+              Meus Projetos
             </Link>
           </li>
         </ul>

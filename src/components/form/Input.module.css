@@ -1,0 +1,20 @@
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label span{
+    font: 1.05rem;
+    padding: 5px 0px;
+}
+
+label input{
+    border: transparent;
+    outline: transparent;
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
