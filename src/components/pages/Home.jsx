@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./Home.module.css";
 import Savings from "../../images/savings.svg";
 import Button from "../layout/LinkButton";
