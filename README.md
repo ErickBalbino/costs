@@ -8,6 +8,7 @@ Crie projetos e controle seus gastos com essa plataforma!
 ```
 $ git clone https://github.com/ErickBalbino/costs.git
 $ cd costs
+$ npm install react-router-dom
 $ npm start
 ```
 
