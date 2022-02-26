@@ -1,19 +1,19 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import "./NewProject.module.css";
 import ProjectForm from "../projects/ProjectForm";
 
 export default function NewProject() {
 
-  const history = useHistory();
+  const history = useNavigate();
   
   function createProject(project){
     // initialize cost and service
-    project.costs = 0;
+    project.cost = 0;
     project.services = [];
 
-    fetch("http://localhost:5000/projects", {
+  fetch("http://localhost:5000/projects", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -22,8 +22,7 @@ export default function NewProject() {
     })
     .then((resp) => resp.json())
     .then((data) => {
-      console.log(data)
-      //redirect
+      history('/projects', { message: "Projeto criado com sucesso!" })
     })
     .catch((err) => console.log(err))
   }

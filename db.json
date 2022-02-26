@@ -1,21 +1,50 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": "2",
-            "name": "Design"
-        },
-        {
-            "id": "2",
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": "2",
-            "name": "Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "name": "Robotica",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Robotica",
+      "cost": 0,
+      "services": [],
+      "budget": "4000",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "id": 2
+    },
+    {
+      "name": "Robotica",
+      "budget": "4000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Design"
+    },
+    {
+      "id": "3",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
