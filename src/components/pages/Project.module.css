@@ -6,3 +6,10 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+.container_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90vw;
+    padding: 20px 0px;
+}

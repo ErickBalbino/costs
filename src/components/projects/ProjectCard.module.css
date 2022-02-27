@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 10px;
+    width: 21vw;
+    height: 300px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 6px rgba(14, 13, 13, 0.103);
+}
+
+.container_title{
+    display: flex;
+    height: 25%;
+    box-sizing: border-box;
+}
+
+.container_description{
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.container_title h3{
+    font-size: 1.5rem;
+    color: #ffbb33;
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_description{
+    padding: 20px 0px;
+}
+
+.container_description p,
+.container_description ul li{
+    color: #222;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+.container_description ul{
+    list-style-position: inside;    
+    display: flex;
+}
+
+.container_buttons{
+    height: 25%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_buttons button{
+    border: transparent;
+    outline: transparent;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_buttons .button_edit{
+    border: 1px solid #222;
+}
+
+.container_buttons .button_delete{
+    background-color: rgb(207, 32, 32);
+    color: #eee;
+}
+
+.button_icon{
+    margin: 0px 5px;
+}
