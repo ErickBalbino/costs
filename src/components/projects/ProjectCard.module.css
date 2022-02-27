@@ -60,7 +60,6 @@
     outline: transparent;
     width: 40%;
     height: 30px;
-    border-radius: 5px;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
@@ -68,12 +67,24 @@
 }
 
 .container_buttons .button_edit{
-    border: 1px solid #222;
+    border: 1px solid #666; 
+    transition: 0.2s ease-in-out box-shadow;
+}
+
+.container_buttons .button_edit:hover{
+    box-shadow: 2px 2px 5px #8583832d;
+    cursor: pointer;
 }
 
 .container_buttons .button_delete{
-    background-color: rgb(207, 32, 32);
+    background-color: #cf2020;
     color: #eee;
+    transition: 0.2s ease-in-out background-color;
+}
+
+.container_buttons .button_delete:hover{
+    background-color: #b41d1d;
+    cursor: pointer;
 }
 
 .button_icon{

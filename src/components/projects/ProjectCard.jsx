@@ -4,6 +4,12 @@ import { BsPencil, BsFillTrashFill } from "react-icons/bs"
 import styles from "./ProjectCard.module.css";
 
 export default function ProjectCard({id, name, budget, category, handleRemove}){
+
+    const remove = (e) => {
+        e.preventDefault()
+        handleRemove(id)
+    }
+
     return(
         <div className={styles.container}>
             <div className={styles.container_title}>
@@ -19,8 +25,12 @@ export default function ProjectCard({id, name, budget, category, handleRemove}){
             </div>
 
             <div className={styles.container_buttons}>
-                <button className={styles.button_edit}><BsPencil className={styles.button_icon} />EDITAR</button>
-                <button className={styles.button_delete}><BsFillTrashFill className={styles.button_icon}/>EXCLUIR</button>
+                <button className={styles.button_edit}>
+                    <BsPencil className={styles.button_icon} />EDITAR
+                </button>
+                <button className={styles.button_delete} onClick={remove}>
+                    <BsFillTrashFill className={styles.button_icon}/>EXCLUIR
+                </button>
             </div>
         </div>
     );
