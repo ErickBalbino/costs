@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react"
+import { Link } from "react-router-dom"
 import { BsPencil, BsFillTrashFill } from "react-icons/bs"
 
-import styles from "./ProjectCard.module.css";
+import styles from "./ProjectCard.module.css"
 
 export default function ProjectCard({id, name, budget, category, handleRemove}){
 
@@ -25,13 +26,13 @@ export default function ProjectCard({id, name, budget, category, handleRemove}){
             </div>
 
             <div className={styles.container_buttons}>
-                <button className={styles.button_edit}>
-                    <BsPencil className={styles.button_icon} />EDITAR
-                </button>
+                <Link to={`/projects/${id}`} className={styles.button_edit}>
+                    <BsPencil className={styles.button_icon}/>EDITAR
+                </Link>
                 <button className={styles.button_delete} onClick={remove}>
                     <BsFillTrashFill className={styles.button_icon}/>EXCLUIR
-                </button>
+                </button> 
             </div>
         </div>
-    );
+    )
 }

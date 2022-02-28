@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useLocation } from "react-router-dom"
 
-import styles from "./Project.module.css"
+import styles from "./Projects.module.css"
 import Message from "../layout/Message"
 import LinkButton from "../layout/LinkButton"
 import ProjectCard from "../projects/ProjectCard"
@@ -32,7 +32,7 @@ export default function Projects() {
         setRemoveLoading(true)
       })
       .catch((err) => console.log(err))
-  }, 1500)
+  }, 500)
 
   function removeProject(id){
     fetch(`http://localhost:5000/projects/${id}`, {

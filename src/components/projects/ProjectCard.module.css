@@ -55,38 +55,32 @@
     justify-content: space-around;
 }
 
-.container_buttons button{
-    border: transparent;
-    outline: transparent;
+.button_edit, 
+.button_delete{
+    border: 1px solid #666;
     width: 40%;
-    height: 30px;
-    font-size: 0.9rem;
+    height: 35px;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.container_buttons .button_edit{
-    border: 1px solid #666; 
-    transition: 0.2s ease-in-out box-shadow;
-}
-
-.container_buttons .button_edit:hover{
-    box-shadow: 2px 2px 5px #8583832d;
-    cursor: pointer;
-}
-
-.container_buttons .button_delete{
-    background-color: #cf2020;
-    color: #eee;
-    transition: 0.2s ease-in-out background-color;
-}
-
-.container_buttons .button_delete:hover{
-    background-color: #b41d1d;
+    align-items: center;
+    color: #222;
+    font-size: 0.9rem;
+    text-decoration: none;
+    outline: transparent;
     cursor: pointer;
 }
 
 .button_icon{
     margin: 0px 5px;
+}
+
+.button_delete{
+    border: transparent;
+    background-color: #c21d1d;
+    color: #eee;
+    transition: 0.2s ease-in-out background-color;
+}
+
+.button_delete:hover{
+    background-color: #a31717;
 }
