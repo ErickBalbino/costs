@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Contratação DevOps",
+      "budget": "4500",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Logo da empresa",
+      "budget": "100",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

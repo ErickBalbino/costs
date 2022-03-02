@@ -9,4 +9,19 @@ button{
     outline: transparent;
     cursor: pointer;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out background-color;
+}
+
+button:hover{
+    background-color: #0f0f0f;
+}
+
+.icon{
+    margin: 0px 10px;
+}
+
+span{
+    width: 65%;
 }
