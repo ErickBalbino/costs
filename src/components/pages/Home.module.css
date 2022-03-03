@@ -13,10 +13,11 @@
   padding: 30px 0px 20px 0px;
 }
 
-.body h1 span {
+.span{
   color: #ffbb33;
   background-color: #222;
-  padding: 2px 10px;
+  padding: 10px;
+  font-size: 2rem;
 }
 
 .body p {

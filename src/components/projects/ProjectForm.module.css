@@ -1,27 +1,20 @@
 form{
-    padding: 25px 0px;
+    padding-top: 25px;
 }
 
 form div{
     display: flex;
     justify-content: center;
-    padding: 20px 0px;
 }
 
-form button{
-    background-color: #222;
-    color: #fff;
-    width: 150px;
-    padding: 8px 0px;
+.button{
     text-align: center;
-    font-size: 1rem;
-    border: transparent;
-    border-radius: 5px;
-    outline: transparent;
+    width: auto;
+    padding: 6px 30px;
     transition: 0.2s ease-in-out color;
 }
 
-form button:hover{
-    cursor: pointer;
+.button:hover{
     color: #ffbb33;
+    background-color: #222;
 }

@@ -32,7 +32,7 @@ export default function NewProject() {
       <h1>Criar novo projeto</h1>
       <p>Crie um novo projeto para depois adicione os serviços!</p>
 
-      <ProjectForm handleSubmit={createProject} />
+      <ProjectForm handleSubmit={createProject} btnText="Criar projeto"/>
     </section>
   )
 }

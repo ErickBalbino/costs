@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={styles.body}>
       <h1>
-        Bem vindo ao <span>Costs</span>
+        Bem vindo ao <span className={styles.span}>Costs</span>
       </h1>
       <p>Comece a gerenciar os seus projetos agora mesmo!</p>
       <Button to="/newproject" text="Criar Projeto" />

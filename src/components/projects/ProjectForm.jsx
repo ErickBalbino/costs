@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 
-import "./ProjectForm.module.css";
-import Input from "../form/Input";
-import Select from "../form/Select";
+import styles from "./ProjectForm.module.css"
+import Input from "../form/Input"
+import Select from "../form/Select"
 
-export default function ProjectForm({handleSubmit, projectData}){
-    const[categories, setCategories] = useState([]);
+export default function ProjectForm({handleSubmit, btnText,  projectData}){
+    const[categories, setCategories] = useState([])
     const[project, setProject] = useState(projectData || {})
 
     useEffect(() => {
@@ -66,10 +66,11 @@ export default function ProjectForm({handleSubmit, projectData}){
                 handleOnChange={handleCategory} 
                 value={project.category ? project.category.id : " "}
            />
+
            <div>
-               <button>Criar projeto</button>
+               <button className={styles.button}>{btnText}</button>
            </div>
        </form>
 
-    );
+    )
 }

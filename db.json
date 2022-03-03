@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "Contratação DevOps",
-      "budget": "4500",
+      "name": "Contratação DevOps ",
+      "budget": "30000",
       "category": {
         "id": "3",
         "name": "Desenvolvimento"
@@ -23,15 +23,26 @@
       "id": 2
     },
     {
-      "name": "Logo da empresa",
-      "budget": "100",
+      "name": "3Imac",
+      "budget": "42000",
       "category": {
-        "id": "2",
-        "name": "Design"
+        "id": "3",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 4
+    },
+    {
+      "name": "4 Processadores I7 9 gen",
+      "budget": "34838",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
     }
   ],
   "categories": [
