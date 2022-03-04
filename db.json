@@ -2,47 +2,14 @@
   "projects": [
     {
       "name": "Impressora 3D",
-      "budget": "2000",
+      "budget": "15000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "Contratação DevOps ",
-      "budget": "30000",
-      "category": {
-        "id": "3",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "3Imac",
-      "budget": "42000",
-      "category": {
-        "id": "3",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "4 Processadores I7 9 gen",
-      "budget": "34838",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

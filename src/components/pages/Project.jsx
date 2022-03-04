@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom'
 import styles from './Project.module.css'
 import Loading from '../layout/Loading'
 import ProjectForm from '../projects/ProjectForm'
+import Message from '../layout/Message'
 
 export default function Project(){
 
@@ -13,6 +14,8 @@ export default function Project(){
 
     const[project, setProject] = useState([])
     const[showProjectForm, setShowProjectForm] = useState(false)
+    const[message, setMessage] = useState()
+    const[typeMessage, setTypeMessage] = useState()
 
     useEffect(() => {
         setTimeout(() => {
@@ -39,7 +42,9 @@ export default function Project(){
     function editPost(project){
         //budget validation
         if(project.budget < project.cost){
-            // mensagem
+            setMessage('O valor do orçamento não pode ser menor que o custo do projeto!')
+            setTypeMessage('error')
+            return false
         }
 
         fetch(`http://localhost:5000/projects/${project.id}`, {
@@ -53,7 +58,8 @@ export default function Project(){
         .then((data) => {
             setProject(data)
             setShowProjectForm(false)
-            //mensagem
+            setMessage('Projeto atualizado com sucesso!')
+            setTypeMessage('success')
         })
         .catch((err) => console.log(err))
     }
@@ -63,6 +69,8 @@ export default function Project(){
             {project.name ? (
                 <div>
                     <section className={styles.container}>
+                        {message && <Message type={typeMessage} message={message} />}
+                        
                         <div className={styles.container_title}>
                             <h1>{project.name}</h1>
 
