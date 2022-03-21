@@ -13,3 +13,11 @@
   color: #c78d18;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .button{
+    width: 50%;
+    text-align: center;
+    padding: 7px 15px;
+  }
+}

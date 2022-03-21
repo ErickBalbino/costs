@@ -1,6 +1,7 @@
 section{
     padding: 30px 0px;
-    width: 500px;
+    width: 50vw;
+    margin: 0 auto;
 }
 
 section h1{
@@ -12,4 +13,10 @@ section p{
     font-size: 1.05rem;
     color: #555;
     padding-left: 3px;
+}
+
+@media (max-width: 768px) {
+    section{
+        width: 95vw;
+    }
 }

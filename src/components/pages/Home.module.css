@@ -31,3 +31,14 @@
   width: 400px;
   padding-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+  .body img{
+    width: 90%;
+  }
+
+  .body h1{
+    text-align: center;
+    line-height: 1.3;
+  }
+}

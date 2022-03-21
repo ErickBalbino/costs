@@ -8,7 +8,6 @@ import Contact from "./components/pages/Contact"
 import NewProject from "./components/pages/NewProject"
 import Projects from "./components/pages/Projects"
 import Project from "./components/pages/Project"
-import Container from "./components/layout/Container"
 import Header from "./components/layout/Header"
 import Footer from "./components/layout/Footer"
 import NotFound from "./components/pages/NotFound"
@@ -19,7 +18,6 @@ export default function App() {
       <BrowserRouter>
         <Header />
 
-        <Container customClass="min-height">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/company" element={<Company />} />
@@ -29,7 +27,6 @@ export default function App() {
             <Route path="/projects/:id" element={<Project />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </Container>
 
         <Footer />
       </BrowserRouter>
