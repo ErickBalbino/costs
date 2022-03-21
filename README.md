@@ -1,8 +1,8 @@
 # COSTS
-Crie projetos e controle seus gastos com essa plataforma!
+Crie projetos e controle seus gastos com essa plataforma! Link para acesso do template: <a href="https://costs-pi.vercel.app/" target="_blank">COSTS</a>
 
 ## Layout da Plataforma
-![costs](https://user-images.githubusercontent.com/78397162/148299815-19a7d2b4-debb-4d43-b0d8-94eba1c35c90.png)
+![costs_react](https://user-images.githubusercontent.com/78397162/156894231-21dbcecc-9bf1-48e9-9d0e-24fe5ece177e.gif)
 
 ## Para rodar o projeto na sua máquina
 ```
